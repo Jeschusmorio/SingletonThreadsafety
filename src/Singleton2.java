@@ -10,12 +10,7 @@ public class Singleton2 {
 		System.out.println("Created Singleton successfully!");
 	}
 	public static Singleton2 getInstance() {
-		if (instance == null) {
-			instance = new Singleton2();
-		}
-		else {
-			System.out.println("Singleton already exists!");
-		}
+		System.out.println("Singleton already exists!");
 		return instance;
 	}
 }
